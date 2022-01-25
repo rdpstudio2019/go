@@ -12,7 +12,9 @@ function getQueryVariable(variable)
 function goto() {
   var url = {
     '1': 'https://rdpstudio.top',
-    'home': 'https://rdpstudio.top'
+    'home': 'https://rdpstudio.top',
+    '2': 'https://docs.apipost.cn/preview/a228b939ea361eb1/1c099d4a37410fa4?target_id=2f13fcbe-b1ba-4e20-aea8-42387995af77#001',
+    'botdocs': 'https://docs.apipost.cn/preview/a228b939ea361eb1/1c099d4a37410fa4?target_id=2f13fcbe-b1ba-4e20-aea8-42387995af77#001'
   };
   link = getQueryVariable('p');
   if (link || url[link]){
