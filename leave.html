@@ -82,9 +82,9 @@ body{margin:0;padding:0}body{height:100%}#loading{-webkit-box-pack:center;-ms-fl
        }
        return(false);
 }
-    document.getElementById("site").innerHTML = unescape(getQueryVariable("site"));
-    document.getElementById("url").innerHTML = unescape(getQueryVariable("url"));
-    document.getElementById("go").href = unescape(getQueryVariable("url"));
+    document.getElementById("site").innerHTML = decodeURI(getQueryVariable("site"));
+    document.getElementById("url").innerHTML = decodeURI(getQueryVariable("url"));
+    document.getElementById("go").href = decodeURI(getQueryVariable("url"));
   </script>
 </body>
 </html>
