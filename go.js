@@ -14,7 +14,8 @@ function goto() {
     '1': 'https://rdpstudio.top',
     'home': 'https://rdpstudio.top',
     '2': 'https://docs.apipost.cn/preview/a228b939ea361eb1/1c099d4a37410fa4?target_id=2f13fcbe-b1ba-4e20-aea8-42387995af77#001',
-    'botdocs': 'https://docs.apipost.cn/preview/a228b939ea361eb1/1c099d4a37410fa4?target_id=2f13fcbe-b1ba-4e20-aea8-42387995af77#001'
+    'botdocs': 'https://docs.apipost.cn/preview/a228b939ea361eb1/1c099d4a37410fa4?target_id=2f13fcbe-b1ba-4e20-aea8-42387995af77#001',
+    '3': 'https://qm.qq.com/cgi-bin/qm/qr?k=aMZN2ESEUIm_yVAFL94S-HlnH5PELq-q&jump_from=webapi&authKey=846xGkE9je2o1Oi6Zp8Qut4NvN5RB+7rCPTFBHDQXDyxMbiAt+DM4eY+USh153j9'
   };
   link = getQueryVariable('p');
   if (link || url[link]){
